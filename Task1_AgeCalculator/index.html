@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- js -->
+    <script defer src="./script.js"></script>
+
+    <title>Task1: Age Calculator</title>
+  </head>
+  <body>
+    <section id="age_form_section" class="flex_col">
+      <form id="age_form">
+        <div class="form_group">
+          <label for="username">👤 Username</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            required
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="form_group">
+          <label for="dob">📅 Date of Birth</label>
+          <input type="date" name="dob" id="dob" required />
+        </div>
+        <button type="submit">Calculate</button>
+      </form>
+    </section>
+
+    <section id="output_section" class="flex_col">
+      <!-- <section id="user_section" class="user_entry flex_col_start">
+        <p><span>Rayan</span> is 21 years old</p>
+        <p><span>Rayan</span> is 252 months old</p>
+        <p><span>Rayan</span> is 7665 days old</p>
+        <p><span>Rayan</span> is 21 years, 5 months, 13 days old</p>
+      </section> -->
+    </section>
+  </body>
+</html>
